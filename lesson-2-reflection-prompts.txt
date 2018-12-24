@@ -1,9 +1,9 @@
 What happens when you initialize a repository? Why do you need to do it?
-	Git makes it a git directory by generating .git folder underneath it to track changes. Run command `git init` to initialise a respository. 
+	Git makes it a git directory by generating .git folder underneath it to track changes/histories. Run command `git init` under a directory to initialise a respository. 
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-	The staging area enables changes in the working directory to be staged before being committed to the repository. It essentially	acts as a buffer between the two and therefore more flexibility follows. As a result, commits are orgnised in a more logical way. 
+	The staging area enables changes made in the working directory to be staged before being committed to the repository (and finalised). It essentially	acts as a buffer between the two end worlds and therefore more flexibility and control follow. As a result, we are better off organising commits in more logical ways. 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
