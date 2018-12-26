@@ -11,6 +11,7 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	New releases, features, and hot fixes deserve their own branches/labels, keeping code history organised. Branches create isolated environments where it is safe to conduct the intended work.
 
 How do the diagrams help you visualize the branch structure?
 
