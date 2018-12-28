@@ -14,6 +14,7 @@ organized? How would branches help?
 	New releases, features, and hot fixes deserve their own branches/labels, keeping code history organised. Branches create isolated environments where it is safe to conduct the intended work.
 
 How do the diagrams help you visualize the branch structure?
+	Running `git log --graph --oneline branch1 branch2 ...` yields a visual representation of the branches nominated so we can draw a branch tree out of these commits as notes.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
