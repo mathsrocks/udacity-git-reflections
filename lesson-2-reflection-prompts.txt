@@ -16,8 +16,8 @@ organized? How would branches help?
 How do the diagrams help you visualize the branch structure?
 	Running `git log --graph --oneline branch1 branch2 ...` yields a visual representation of the branches nominated so we can draw a branch tree out of these commits as notes.
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Merging two branches together yields a new commit (which is Git's building block) that points to the two most recent commits each as parents. Note this is completely different than simply labelling one branch with another name and losing track of the commits of the other.
+	The branch diagrams help us visualise the relationships among commits more clearly and identify the "orphan" commits that are unreachable in current branches.
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
