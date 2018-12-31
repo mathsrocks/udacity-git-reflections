@@ -8,10 +8,12 @@ automatically stay up-to-date with your remote repository?
 
     It is extremly likely that many people/parties collabrate in large projects and therefore have access to the remote repository. Having Git automatically stay up-to-date with the remote may lead to too many commits being pulled than desired. Manually pulling changes from remote offers the discretion we want. 
 
-Describe the differences between forks, clones, and branches.  When would you
+Describe the differences between forks, clones, and branches. When would you
 use one instead of another?
 
-    Fill in your answer here
+    Branches are labels on commits to identify traceable paths and each commit tracks its parent(s). Branches operate within a repository but they can be pushed to and pulled from remote repositories.
+    Clones operate on repositories both locally and remotely. If a repository is cloned from a remote, it the remote set up automatically by Git.
+    Forks are more like clones than branches. They only operate within the context of GitHub, i.e. clones done on GitHub servers, and offer traceability and isolation.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
