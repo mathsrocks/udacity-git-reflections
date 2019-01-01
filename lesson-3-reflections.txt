@@ -27,6 +27,7 @@ and what would be harder?
     Without Git or GitHub, making the actual change would be easier but back-tracking and version control is way harder. 
 
 When would you want to make changes in a separate branch rather than directly in
-master?  What benefits does each approach have?
+master? What benefits does each approach have?
 
-    Fill in your answer here
+    It is imperative to make changes in a separate branch when people are collaborating on the project and the master branch serves as production.
+    Working directly in master is simple and straightforward for local work whilst different branches allow collaboration and sharing.
