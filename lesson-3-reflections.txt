@@ -18,12 +18,13 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-	Having a copy of the last known state of the remote stored locally allows collaborators to work independently and promotes synchronicity.
+    Having a copy of the last known state of the remote stored locally allows collaborators to work independently and promotes synchronicity.
 
 How would you collaborate without using Git or GitHub? What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    One of the naive ways of collaborating without Git or GitHub is to lock out the piece of code to change from people other than the assignees.
+    Without Git or GitHub, making the actual change would be easier but back-tracking and version control is way harder. 
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
